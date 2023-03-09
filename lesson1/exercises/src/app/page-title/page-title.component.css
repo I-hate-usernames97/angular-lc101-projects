@@ -1,8 +1,5 @@
-.movies{
+h1{
     color: rgb(78, 15, 151);
-    font-size: 1.5vw;
-};
-
-h3{
+    text-decoration: underline;
     text-align: center;
-}
+};

@@ -1,0 +1,8 @@
+hr {
+    height: 25px;
+    background-color: #000000; 
+}
+#border{
+    color: #010101;
+    border-style: inset;
+}
