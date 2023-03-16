@@ -25,7 +25,7 @@ handleTakeOff() {
    }
 }
 
-endMission(rocketImage, result) {
+endMission(result) {
    if (result) {
       this.color = '#FF8B8B';
       this.height = 0;
