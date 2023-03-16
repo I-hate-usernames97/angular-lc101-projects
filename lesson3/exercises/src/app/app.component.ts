@@ -21,19 +21,17 @@ handleTakeOff() {
       this.width = 0;
       this.message = 'Shuttle in flight.';
       this.takeOffEnabled = false;
-      moveRocket(rocketImage, 'up')
+
    }
 }
 
-endMission(result) {
-
+endMission(rocketImage, result) {
    if (result) {
       this.color = '#FF8B8B';
       this.height = 0;
       this.width = 0;
       this.message = 'Space shuttle ready for takeoff!';
       this.takeOffEnabled = true;
-
    }
 }
 
