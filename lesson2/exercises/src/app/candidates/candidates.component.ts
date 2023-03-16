@@ -27,8 +27,7 @@ export class CandidatesComponent implements OnInit {
 
 addToCrew(person: object) {
    //TODO: complete the function!
-   console.log("hi")
-   if(person.name === ''){
+   if(person === undefined){
    return
    }
    if(!this.crew.includes(person)){
